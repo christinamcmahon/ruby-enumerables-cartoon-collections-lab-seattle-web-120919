@@ -19,5 +19,5 @@ def find_the_cheese(array)
   if cheese_types.reduce {|cheese| array.include?(cheese)}
     return cheese
   end
-  false
+  cheese_types
 end
